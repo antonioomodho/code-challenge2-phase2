@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.grid{
+  position: relative;
+  top: 16em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow-y: scroll;
+  height: 22em;
+}
+.army{
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  height: 16em;
+  width: 100%;
+  position: fixed;
+  border-bottom: 2000px;
+}
+.card-img-top{
+  size: 10px;
+  image-orientation: flip;
+  height: 5cm;
+  width: fit-content;
+}
